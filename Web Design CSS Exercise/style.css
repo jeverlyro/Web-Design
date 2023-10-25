@@ -1,0 +1,146 @@
+h1 {
+    font-family: Gontserrat;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 10px;
+    margin-left: 700px;
+    margin-right: 700px;
+    margin-top: 150px;
+}
+
+.small {
+    font-family: "SF Pro Display";
+    margin-left: 20px;
+    margin-top: -20px;
+    margin-bottom: 40px;
+}
+
+.form-content {
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+footer {
+    margin-top: 20px;
+    margin-left: 815px;
+    font-family: Gontserrat;
+}
+
+.submit {
+    background-color: #0077B6;
+    color: white;
+    padding: 15px 180px;
+    margin-left: 20px;
+    border-radius: 25px;
+    font-family: Gontserrat;
+    border: 0px;
+    font-size: 16px;
+}
+
+.submit:hover {
+    cursor: pointer;
+    background-color: #0096C7;
+}
+
+.divider {
+    font-family: Gontserrat;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+  }
+  
+.divider:before {
+    flex: 1;
+    content: '';
+    padding: 1px;
+    background-color: grey;
+    margin: 5px;
+    margin-right: 20px;
+  }
+
+.divider::after {
+    flex: 1;
+    content: '';
+    padding: 1px;
+    background-color: grey;
+    margin-right: 35px;
+    margin-left: 20px;
+}
+
+.social {
+    background-color: white;
+    color: grey;
+    border: 1px solid black;
+    padding: 15px 130px;
+    margin-left: 20px;
+    border-radius: 25px;
+    margin-bottom: 70px;
+    font-family: Gontserrat;
+    font-size: 14px;
+}
+
+.social:hover {
+    cursor: pointer;
+    background-color: #F5F7F8;
+}
+
+input[type=text] {
+    width: 365px;
+    padding: 12px 20px;
+    border-radius: 5px;
+    border-color: #ccc;
+    border-style: solid;
+  }
+
+p {
+    margin-left: 25px
+}
+
+input[type=password] {
+    width: 365px;
+    padding: 12px 20px;
+    border-radius: 5px;
+    border-color: #ccc;
+    border-style: solid;
+}
+
+#forgor {
+    font-family: Gontserrat;
+    font-size: 14px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+
+#joinhover:hover {
+    background-color: #0077B6;
+    border-radius: 5px;
+    color: #00B4D8;
+}
+
+input[type=text]:hover {
+    border-color: #0077B6;
+}
+
+input[type=password]:hover {
+    border-color: #0077B6;
+}
+
+input[type=text]:focus {
+    border-color: #00B4D8;
+}
+
+input[type=password]:focus{
+    border-color: #00B4D8;
+}
