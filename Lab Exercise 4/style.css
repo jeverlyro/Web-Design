@@ -1,0 +1,144 @@
+#navigate {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: #EBE3D5;
+    text-align: center;
+    padding-top: 20px;
+    border: 1px solid #EBE3D5;
+    font-size: 20px;
+}
+
+#link {
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+#link:hover {
+    font-size: larger;
+    transition: 500ms;
+    background-color: #F3EEEA;
+    border-radius: 1px solid #D2E0FB;
+    text-decoration: underline;
+}
+
+body {
+    background-color: #B0A695;
+    font-family: "Product Sans";
+}
+
+.index {
+    text-align: center;
+    font-size: 50px;
+}
+
+h2 {
+    margin-top: -30px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+h3 {
+    transition: 0.3s;
+}
+
+.header {
+    display: grid;
+    justify-content: center;
+}
+
+.about {
+    text-align: center;
+}
+
+#imgabout {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 11%;
+}
+
+
+#center {
+    display: grid;
+    text-align: left;
+    justify-items: center;
+}
+
+.centermid {
+    display: grid;
+    grid-template-columns: 0.1fr 0.1fr 0.1fr 0.1fr;
+    grid-auto-columns: 1fr;
+    justify-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+#texthover:hover {
+    color: aqua;
+    transition: 500ms;
+    font-size: 25px;
+}
+
+#texthover:a {
+    color: black;
+    transition: 500ms;
+}
+
+img {
+    transition: 0.3s;
+}
+
+#img:hover {
+    transform: scale(1.1);
+    transition: 300ms;
+}
+
+
+#pengumuman {
+    display: grid;
+    text-align: center;
+    justify-items: center;
+    font-size: 30px;
+    transition: 0.3s;
+}
+
+#pengumuman:hover {
+    color: aqua;
+    transition: 500ms;
+    font-size: 35px;
+}
+
+#centerabouttext {
+    display: grid;
+    text-align: left;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.centerabout {
+    margin-top: 50px;
+    display: grid;
+    text-align: left;
+    justify-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 1200px;
+    height: 1800px;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
